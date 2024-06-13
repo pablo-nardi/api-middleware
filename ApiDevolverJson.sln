@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDevolverJson", "ApiDevolverJson\ApiDevolverJson.csproj", "{D3CB37B5-0CBB-478C-8D01-F04FC1E02B1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3CB37B5-0CBB-478C-8D01-F04FC1E02B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CB37B5-0CBB-478C-8D01-F04FC1E02B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CB37B5-0CBB-478C-8D01-F04FC1E02B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CB37B5-0CBB-478C-8D01-F04FC1E02B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A35F4D6-2BD0-4F26-AB59-7EFC17D3847D}
+	EndGlobalSection
+EndGlobal
