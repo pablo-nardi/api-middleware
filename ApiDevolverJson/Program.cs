@@ -1,4 +1,6 @@
 ﻿using ApiDevolverJson.Controllers;
+using ApiDevolverJson.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiDevolverJson
 {
@@ -18,6 +20,12 @@ namespace ApiDevolverJson
                         });
                 });
 
+            builder.Services.AddDbContext<ApiContext>(
+                options => options.UseSqlServer(
+                    builder.Configuration.GetConnectionString("ApiContext") ?? throw new InvalidOperationException("Connection string 'MvcMovieContext' not found."
+                    )
+                )
+            );
             builder.Services.AddControllers();            
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
